@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(205, 25, 25);
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1);
+    border-radius: 20px;
+}
+.img:hover{
+    transform: scale(1.03);
+}
+.title{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.container{
+   background-color: black;
+   height: auto;
+}
+.search-section{
+  text-align: center;
+  margin-top: 40px;
+}
+.inp{
+    padding: 10px 80px 10px 80px;
+    border: 2px solid red;
+    background-color: black;
+    color: beige;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.filters{
+    /* display: inline-block; */
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.item{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 25px;
+    border: 1px solid rgb(10, 10, 10);
+    padding: 8px 15px 8px 15px;
+    background-color: rgb(240, 123, 13);
+    border-radius: 10px;
+    color: rgb(10, 10, 10);
+    font-family:cursive;
+}
+.button{
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.btn1{
+    padding: 6px 10px 6px 10px;
+    color: orange;
+    border-radius: 5px;
+}
+.btn2{
+        padding: 6px 10px 6px 10px;
+        color: orange;
+        border-radius: 5px;
+        margin-left: 30px;
+}
